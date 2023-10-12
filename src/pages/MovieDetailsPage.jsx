@@ -25,7 +25,7 @@ function MovieDetailsPage() {
       {movie && (
         <div>
           <button style={{ display: "block" }} onClick={() => navigate(-1)}>
-            Go Back
+            Go back
           </button>
           <img
             src={"https://image.tmdb.org/t/p/w300/" + `${movie.poster_path}`}
